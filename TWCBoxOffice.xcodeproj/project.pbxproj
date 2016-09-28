@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B7958535B6D148C46CFD42 /* libPods-TWCBoxOffice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7713FC7F8EDD08C57EEE165A /* libPods-TWCBoxOffice.a */; };
+		BA811EDA1BD594A800D561CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA811ED91BD594A800D561CA /* main.m */; };
+		BA811EDD1BD594A800D561CA /* TWCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA811EDC1BD594A800D561CA /* TWCAppDelegate.m */; };
+		BA811EE01BD594A800D561CA /* TWCBoxOffice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA811EDE1BD594A800D561CA /* TWCBoxOffice.xcdatamodeld */; };
+		BA811EE31BD594A800D561CA /* TWCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA811EE21BD594A800D561CA /* TWCMasterViewController.m */; };
+		BA811EE61BD594A800D561CA /* TWCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA811EE51BD594A800D561CA /* TWCDetailViewController.m */; };
+		BA811EE91BD594A800D561CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA811EE71BD594A800D561CA /* Main.storyboard */; };
+		BA811EEB1BD594A800D561CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA811EEA1BD594A800D561CA /* Assets.xcassets */; };
+		BA811EEE1BD594A800D561CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA811EEC1BD594A800D561CA /* LaunchScreen.storyboard */; };
+		BA811EF91BD594A800D561CA /* TWCBoxOfficeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA811EF81BD594A800D561CA /* TWCBoxOfficeTests.m */; };
+		BA811F041BD594A800D561CA /* TWCBoxOfficeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA811F031BD594A800D561CA /* TWCBoxOfficeUITests.m */; };
+		BA811F131BD595E300D561CA /* TWCHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA811F121BD595E300D561CA /* TWCHTTPSessionManager.m */; settings = {ASSET_TAGS = (); }; };
+		BA811F161BD596FC00D561CA /* TWCBoxOfficeMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = BA811F151BD596FC00D561CA /* TWCBoxOfficeMovie.m */; settings = {ASSET_TAGS = (); }; };
+		BA811F191BD59A2300D561CA /* TWCMoviesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA811F181BD59A2300D561CA /* TWCMoviesTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA811EF51BD594A800D561CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA811ECD1BD594A800D561CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA811ED41BD594A800D561CA;
+			remoteInfo = TWCBoxOffice;
+		};
+		BA811F001BD594A800D561CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA811ECD1BD594A800D561CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA811ED41BD594A800D561CA;
+			remoteInfo = TWCBoxOffice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		347068C244FF6D650194E2C8 /* Pods-TWCBoxOffice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWCBoxOffice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWCBoxOffice/Pods-TWCBoxOffice.debug.xcconfig"; sourceTree = "<group>"; };
+		7713FC7F8EDD08C57EEE165A /* libPods-TWCBoxOffice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWCBoxOffice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA811ED51BD594A800D561CA /* TWCBoxOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWCBoxOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA811ED91BD594A800D561CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA811EDB1BD594A800D561CA /* TWCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCAppDelegate.h; sourceTree = "<group>"; };
+		BA811EDC1BD594A800D561CA /* TWCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWCAppDelegate.m; sourceTree = "<group>"; };
+		BA811EDF1BD594A800D561CA /* TWCBoxOffice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TWCBoxOffice.xcdatamodel; sourceTree = "<group>"; };
+		BA811EE11BD594A800D561CA /* TWCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCMasterViewController.h; sourceTree = "<group>"; };
+		BA811EE21BD594A800D561CA /* TWCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWCMasterViewController.m; sourceTree = "<group>"; };
+		BA811EE41BD594A800D561CA /* TWCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWCDetailViewController.h; sourceTree = "<group>"; };
+		BA811EE51BD594A800D561CA /* TWCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWCDetailViewController.m; sourceTree = "<group>"; };
+		BA811EE81BD594A800D561CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA811EEA1BD594A800D561CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA811EED1BD594A800D561CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA811EEF1BD594A800D561CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA811EF41BD594A800D561CA /* TWCBoxOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWCBoxOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA811EF81BD594A800D561CA /* TWCBoxOfficeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWCBoxOfficeTests.m; sourceTree = "<group>"; };
+		BA811EFA1BD594A800D561CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA811EFF1BD594A800D561CA /* TWCBoxOfficeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWCBoxOfficeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA811F031BD594A800D561CA /* TWCBoxOfficeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWCBoxOfficeUITests.m; sourceTree = "<group>"; };
+		BA811F051BD594A800D561CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA811F111BD595E300D561CA /* TWCHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCHTTPSessionManager.h; sourceTree = "<group>"; };
+		BA811F121BD595E300D561CA /* TWCHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCHTTPSessionManager.m; sourceTree = "<group>"; };
+		BA811F141BD596FC00D561CA /* TWCBoxOfficeMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCBoxOfficeMovie.h; sourceTree = "<group>"; };
+		BA811F151BD596FC00D561CA /* TWCBoxOfficeMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCBoxOfficeMovie.m; sourceTree = "<group>"; };
+		BA811F171BD59A2300D561CA /* TWCMoviesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWCMoviesTableViewCell.h; sourceTree = "<group>"; };
+		BA811F181BD59A2300D561CA /* TWCMoviesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWCMoviesTableViewCell.m; sourceTree = "<group>"; };
+		C89E398E63DBC4CFE89DE275 /* Pods-TWCBoxOffice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWCBoxOffice.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWCBoxOffice/Pods-TWCBoxOffice.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA811ED21BD594A800D561CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B7958535B6D148C46CFD42 /* libPods-TWCBoxOffice.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA811EF11BD594A800D561CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA811EFC1BD594A800D561CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4303BB1F40C3BD7E331E7EDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7713FC7F8EDD08C57EEE165A /* libPods-TWCBoxOffice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA811ECC1BD594A800D561CA = {
+			isa = PBXGroup;
+			children = (
+				BA811ED71BD594A800D561CA /* TWCBoxOffice */,
+				BA811EF71BD594A800D561CA /* TWCBoxOfficeTests */,
+				BA811F021BD594A800D561CA /* TWCBoxOfficeUITests */,
+				BA811ED61BD594A800D561CA /* Products */,
+				E76A901300AF958E9E988DFB /* Pods */,
+				4303BB1F40C3BD7E331E7EDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA811ED61BD594A800D561CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA811ED51BD594A800D561CA /* TWCBoxOffice.app */,
+				BA811EF41BD594A800D561CA /* TWCBoxOfficeTests.xctest */,
+				BA811EFF1BD594A800D561CA /* TWCBoxOfficeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA811ED71BD594A800D561CA /* TWCBoxOffice */ = {
+			isa = PBXGroup;
+			children = (
+				BA811EDB1BD594A800D561CA /* TWCAppDelegate.h */,
+				BA811EDC1BD594A800D561CA /* TWCAppDelegate.m */,
+				BA811EE11BD594A800D561CA /* TWCMasterViewController.h */,
+				BA811EE21BD594A800D561CA /* TWCMasterViewController.m */,
+				BA811EE41BD594A800D561CA /* TWCDetailViewController.h */,
+				BA811EE51BD594A800D561CA /* TWCDetailViewController.m */,
+				BA811F111BD595E300D561CA /* TWCHTTPSessionManager.h */,
+				BA811F121BD595E300D561CA /* TWCHTTPSessionManager.m */,
+				BA811F141BD596FC00D561CA /* TWCBoxOfficeMovie.h */,
+				BA811F151BD596FC00D561CA /* TWCBoxOfficeMovie.m */,
+				BA811F171BD59A2300D561CA /* TWCMoviesTableViewCell.h */,
+				BA811F181BD59A2300D561CA /* TWCMoviesTableViewCell.m */,
+				BA811EE71BD594A800D561CA /* Main.storyboard */,
+				BA811EEA1BD594A800D561CA /* Assets.xcassets */,
+				BA811EEC1BD594A800D561CA /* LaunchScreen.storyboard */,
+				BA811EEF1BD594A800D561CA /* Info.plist */,
+				BA811EDE1BD594A800D561CA /* TWCBoxOffice.xcdatamodeld */,
+				BA811ED81BD594A800D561CA /* Supporting Files */,
+			);
+			path = TWCBoxOffice;
+			sourceTree = "<group>";
+		};
+		BA811ED81BD594A800D561CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA811ED91BD594A800D561CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA811EF71BD594A800D561CA /* TWCBoxOfficeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA811EF81BD594A800D561CA /* TWCBoxOfficeTests.m */,
+				BA811EFA1BD594A800D561CA /* Info.plist */,
+			);
+			path = TWCBoxOfficeTests;
+			sourceTree = "<group>";
+		};
+		BA811F021BD594A800D561CA /* TWCBoxOfficeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA811F031BD594A800D561CA /* TWCBoxOfficeUITests.m */,
+				BA811F051BD594A800D561CA /* Info.plist */,
+			);
+			path = TWCBoxOfficeUITests;
+			sourceTree = "<group>";
+		};
+		E76A901300AF958E9E988DFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				347068C244FF6D650194E2C8 /* Pods-TWCBoxOffice.debug.xcconfig */,
+				C89E398E63DBC4CFE89DE275 /* Pods-TWCBoxOffice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA811ED41BD594A800D561CA /* TWCBoxOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA811F081BD594A800D561CA /* Build configuration list for PBXNativeTarget "TWCBoxOffice" */;
+			buildPhases = (
+				088B5DFF32C155BF75721FB3 /* Check Pods Manifest.lock */,
+				BA811ED11BD594A800D561CA /* Sources */,
+				BA811ED21BD594A800D561CA /* Frameworks */,
+				BA811ED31BD594A800D561CA /* Resources */,
+				623D46937A9A34C046DE761D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWCBoxOffice;
+			productName = TWCBoxOffice;
+			productReference = BA811ED51BD594A800D561CA /* TWCBoxOffice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA811EF31BD594A800D561CA /* TWCBoxOfficeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA811F0B1BD594A800D561CA /* Build configuration list for PBXNativeTarget "TWCBoxOfficeTests" */;
+			buildPhases = (
+				BA811EF01BD594A800D561CA /* Sources */,
+				BA811EF11BD594A800D561CA /* Frameworks */,
+				BA811EF21BD594A800D561CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA811EF61BD594A800D561CA /* PBXTargetDependency */,
+			);
+			name = TWCBoxOfficeTests;
+			productName = TWCBoxOfficeTests;
+			productReference = BA811EF41BD594A800D561CA /* TWCBoxOfficeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA811EFE1BD594A800D561CA /* TWCBoxOfficeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA811F0E1BD594A800D561CA /* Build configuration list for PBXNativeTarget "TWCBoxOfficeUITests" */;
+			buildPhases = (
+				BA811EFB1BD594A800D561CA /* Sources */,
+				BA811EFC1BD594A800D561CA /* Frameworks */,
+				BA811EFD1BD594A800D561CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA811F011BD594A800D561CA /* PBXTargetDependency */,
+			);
+			name = TWCBoxOfficeUITests;
+			productName = TWCBoxOfficeUITests;
+			productReference = BA811EFF1BD594A800D561CA /* TWCBoxOfficeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA811ECD1BD594A800D561CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Ranjith;
+				TargetAttributes = {
+					BA811ED41BD594A800D561CA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BA811EF31BD594A800D561CA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BA811ED41BD594A800D561CA;
+					};
+					BA811EFE1BD594A800D561CA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BA811ED41BD594A800D561CA;
+					};
+				};
+			};
+			buildConfigurationList = BA811ED01BD594A800D561CA /* Build configuration list for PBXProject "TWCBoxOffice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA811ECC1BD594A800D561CA;
+			productRefGroup = BA811ED61BD594A800D561CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA811ED41BD594A800D561CA /* TWCBoxOffice */,
+				BA811EF31BD594A800D561CA /* TWCBoxOfficeTests */,
+				BA811EFE1BD594A800D561CA /* TWCBoxOfficeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA811ED31BD594A800D561CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA811EEE1BD594A800D561CA /* LaunchScreen.storyboard in Resources */,
+				BA811EEB1BD594A800D561CA /* Assets.xcassets in Resources */,
+				BA811EE91BD594A800D561CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA811EF21BD594A800D561CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA811EFD1BD594A800D561CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		088B5DFF32C155BF75721FB3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		623D46937A9A34C046DE761D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWCBoxOffice/Pods-TWCBoxOffice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA811ED11BD594A800D561CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA811EE61BD594A800D561CA /* TWCDetailViewController.m in Sources */,
+				BA811F131BD595E300D561CA /* TWCHTTPSessionManager.m in Sources */,
+				BA811EE31BD594A800D561CA /* TWCMasterViewController.m in Sources */,
+				BA811F161BD596FC00D561CA /* TWCBoxOfficeMovie.m in Sources */,
+				BA811EDD1BD594A800D561CA /* TWCAppDelegate.m in Sources */,
+				BA811EDA1BD594A800D561CA /* main.m in Sources */,
+				BA811EE01BD594A800D561CA /* TWCBoxOffice.xcdatamodeld in Sources */,
+				BA811F191BD59A2300D561CA /* TWCMoviesTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA811EF01BD594A800D561CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA811EF91BD594A800D561CA /* TWCBoxOfficeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA811EFB1BD594A800D561CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA811F041BD594A800D561CA /* TWCBoxOfficeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA811EF61BD594A800D561CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA811ED41BD594A800D561CA /* TWCBoxOffice */;
+			targetProxy = BA811EF51BD594A800D561CA /* PBXContainerItemProxy */;
+		};
+		BA811F011BD594A800D561CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA811ED41BD594A800D561CA /* TWCBoxOffice */;
+			targetProxy = BA811F001BD594A800D561CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA811EE71BD594A800D561CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA811EE81BD594A800D561CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA811EEC1BD594A800D561CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA811EED1BD594A800D561CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA811F061BD594A800D561CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA811F071BD594A800D561CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA811F091BD594A800D561CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347068C244FF6D650194E2C8 /* Pods-TWCBoxOffice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TWCBoxOffice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twc.TWCBoxOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA811F0A1BD594A800D561CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89E398E63DBC4CFE89DE275 /* Pods-TWCBoxOffice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TWCBoxOffice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twc.TWCBoxOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA811F0C1BD594A800D561CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TWCBoxOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twc.TWCBoxOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWCBoxOffice.app/TWCBoxOffice";
+			};
+			name = Debug;
+		};
+		BA811F0D1BD594A800D561CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TWCBoxOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twc.TWCBoxOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWCBoxOffice.app/TWCBoxOffice";
+			};
+			name = Release;
+		};
+		BA811F0F1BD594A800D561CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TWCBoxOfficeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twc.TWCBoxOfficeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWCBoxOffice;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BA811F101BD594A800D561CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TWCBoxOfficeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twc.TWCBoxOfficeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TWCBoxOffice;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA811ED01BD594A800D561CA /* Build configuration list for PBXProject "TWCBoxOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA811F061BD594A800D561CA /* Debug */,
+				BA811F071BD594A800D561CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA811F081BD594A800D561CA /* Build configuration list for PBXNativeTarget "TWCBoxOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA811F091BD594A800D561CA /* Debug */,
+				BA811F0A1BD594A800D561CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA811F0B1BD594A800D561CA /* Build configuration list for PBXNativeTarget "TWCBoxOfficeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA811F0C1BD594A800D561CA /* Debug */,
+				BA811F0D1BD594A800D561CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA811F0E1BD594A800D561CA /* Build configuration list for PBXNativeTarget "TWCBoxOfficeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA811F0F1BD594A800D561CA /* Debug */,
+				BA811F101BD594A800D561CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA811EDE1BD594A800D561CA /* TWCBoxOffice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA811EDF1BD594A800D561CA /* TWCBoxOffice.xcdatamodel */,
+			);
+			currentVersion = BA811EDF1BD594A800D561CA /* TWCBoxOffice.xcdatamodel */;
+			path = TWCBoxOffice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA811ECD1BD594A800D561CA /* Project object */;
+}
