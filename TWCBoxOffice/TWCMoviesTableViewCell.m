@@ -30,7 +30,7 @@
     return self;
 }
 
-- (void)setMovie:(TWCBoxOfficeMovie *)movie {
+- (void)setMovie:(TWCBoxOfficeMovie *)movie { 
     _movie = movie;
     
     self.textLabel.text = _movie.movieTitle;
